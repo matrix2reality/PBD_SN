@@ -22,8 +22,9 @@ class SpellChecker:
 
 if __name__ == '__main__':
 	spell_check = SpellChecker()
-	spell_check.load_words("spell.words")		
+	spell_check.load_words("spell.words")
+	
 	print spell_check.check_word('zygotic')
-	print spell_check.check_word('mist')
+	print spell_check.check_word('mistasdas')
 	print spell_check.check_words('zygotic mistasdas elementary')
 
